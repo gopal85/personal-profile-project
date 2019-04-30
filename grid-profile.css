@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Sans+Serif');
+
+#name {background-color: #000000;}
+#profile-pic {background-color: #D9B908;}
+#bio {background-color: #ddccbb;}
+#rules {background-color: #eedddd;}
+#friends {background-color: #ccaa99;}
+#feedback {background-color: #223333;}
+
+.cell {
+    font-size: 1.4em;
+    color: #F8F9F3;
+    text-align: center;
+    text-decoration: none;
+    border-style: double;
+    border-color: black;
+    padding: 10px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.garamond {
+    font-family: garamond;
+}
+
+#rate {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid {
+    display: grid;
+    grid-gap: 1px; 
+    grid-template-columns: 40vw 20vw 40vw;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+#name {
+    grid-column: span 3;
+}
+
+#profile_pic {
+    grid-column: span 1;
+    background-color: black;
+}
+
+#bio {
+    grid-column: span 2;
+}
+
+#friends {
+    grid-column: span 1;
+}
+
+#rules {
+    grid-column: span 2;
+}
+
+#feedback {
+    grid-column: span 3;
+    font-family: garamond;
+    font-size: 1em;
+}
+
+h1 {
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    font-family: cursive;
+}
+
+h2 {
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    font-family: cursive;
+}
+
+h3 {
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    font-family: cursive;
+}
+
+p {
+    font-family: garamond;
+}
+
+li {
+    font-family: garamond;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <title>Suraj's Profile</title>
+	    <link rel="stylesheet" href="grid-profile.css" type="text/css" />
+    </head>
+    <body>
+        <div id="grid">
+            <div class="cell" id="name">
+                <h1>Suraj Gopal, Code Apprentice</h1>
+            </div>
+            <div class="cell center" id="profile_pic">
+                <img src="https://pbs.twimg.com/profile_images/1049275111407329285/5JAqeBId_400x400.jpg"></img>
+            </div>
+            <div class="cell garamond" id="bio">
+                <p>I'm here to teach and learn the art of coding. My first effort is this bio.<br> 
+                I'm coming in with a background in music, which is not traditionally associated with analytical work, but I believe there's a connection between art and coding that's overlooked. <br> 
+                Both involve intentional design, structure, and harmony between elements. <br>
+                Neither can be mastered without a respect for how delicately balanced this harmony is. <br> 
+                In other words, an orderly website is quite like an elegant piece in binary form: the structure of both allows unique ideas to hang over a scaffold and be communicated sensibly to an audience.</p>
+            </div>
+            <div class="cell garamond" id="friends">
+                <h3>Favorite Sites Across the Web...</h3>
+                <ul>
+                    <li><a href ="http://www.overcomingbias.com/">Overcoming Bias</a></li>
+                    <li><a href ="http://www.marginalrevolution.com">Marginal Revolution</a></li>
+                    <li><a href ="http://www.slowlydownward.com">Stanley Donwood</a></li>
+                    <li><a href ="https://vulfpeck.com">Vulfpeck</a></li>
+                </ul>
+            </div>
+            <div class="cell garamond" id="rules">
+                <h2>Rules to Live By</h2>
+                <ol>
+                    <li>Stand up straight, with your shoulders back and head up.</li>
+                    <li>Make your bed every day.</li>
+                    <li>Seek to understand others before criticizing them.</li>
+                    <li>Avoid comparing yourself to others. You're on your own path.</li>
+                </ol>
+            </div>
+            <div class="cell garamond" id="feedback">
+                <p>What do you think of my profile? Leave some feedback</p><br>
+                <form action="/feedback-for-suraj">
+                    <div class="choices" id="rate">
+                        <label for="good-job"><input id="good-job" type="radio" name="feedback"> On point. You're a superstar!</label>
+                        <label for="decent-job"><input id="decent-job" type="radio" name="feedback"> There's some cool information here, but I still feel like I don't know you.</label>
+                        <label for="needs-work"><input id="needs-work" type="radio" name="feedback"> Weird, off-putting, all the bad things. This page needs a facelift...</label>
+                    </div>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
